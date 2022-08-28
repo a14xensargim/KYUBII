@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.kyubi.ui.home.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_galeria"
+        android:name="com.example.kyubi.ui.gallery.GalleryFragment"
+        android:label="@string/menu_galeria"
+        tools:layout="@layout/fragment_galeria" />
+
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.kyubi.ui.calendario.CalendarFragment"
+        android:label="@string/menu_calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/nav_foro"
+        android:name="com.example.kyubi.ui.foro.ForoFragment"
+        android:label="@string/menu_foro"
+        tools:layout="@layout/fragment_foro" />
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="com.example.kyubi.ui.noticias.NewsFragment"
+        android:label="@string/menu_noticias"
+        tools:layout="@layout/fragment_noticias" />
+
+    <fragment
+        android:id="@+id/nav_rutinas"
+        android:name="com.example.kyubi.ui.rutinas.RutinasFragment"
+        android:label="@string/menu_rutinas"
+        tools:layout="@layout/fragment_rutinas" />
+</navigation>

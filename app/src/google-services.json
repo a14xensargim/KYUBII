@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1026448606026",
+    "firebase_url": "https://kyubi-c8e77-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kyubi-c8e77",
+    "storage_bucket": "kyubi-c8e77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026448606026:android:35fcb76b651083e27337b3",
+        "android_client_info": {
+          "package_name": "com.example.kyubi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026448606026-a102s3fcsf5hkl6ic74oqnq52svnf8s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnVUXvmS5gpJYerFlWGn25s_vqLxAGoiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026448606026-a102s3fcsf5hkl6ic74oqnq52svnf8s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

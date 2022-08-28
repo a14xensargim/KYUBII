@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondologin"
+    tools:context=".Registrar">
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginSignIn"
+        android:layout_marginTop="@dimen/marginSignIn"
+        android:layout_marginEnd="@dimen/marginSignIn"
+        android:layout_marginBottom="@dimen/marginSignIn"
+        android:gravity="center"
+        android:text="@string/registro"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sizeSignIn"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registro"
+        android:layout_marginStart="@dimen/marginUsername"
+        android:layout_marginTop="@dimen/marginUsername"
+        android:layout_marginEnd="@dimen/marginUsername"
+        android:layout_marginBottom="@dimen/marginUsername"
+        android:background="@color/translucid"
+        android:drawableLeft="@drawable/ic_baseline_username"
+        android:drawablePadding="@dimen/dPaddingUsername"
+        android:hint="@string/username"
+        android:padding="@dimen/paddingUsername"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@id/username"
+        android:hint="@string/password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="@dimen/marginUsername"
+        android:padding="@dimen/paddingUsername"
+        android:background="@color/translucid"
+        android:drawableLeft="@drawable/ic_baseline_lock"
+        android:drawablePadding="@dimen/dPaddingUsername"
+        android:inputType="textPassword"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registrarbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/marginLogin"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:text="@string/registrarme" />
+
+</RelativeLayout>
