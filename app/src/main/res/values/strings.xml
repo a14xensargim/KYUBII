@@ -21,4 +21,13 @@
     <string name="signIn">Iniciar sesión</string>
     <string name="registro">Registro</string>
     <string name="registrarme">REGISTRARME</string>
+    <string name="afegir">AÑADIR</string>
+    <string name="titulo">TÍTULO:</string>
+    <string name="tituloej">Ej. KYUBI</string>
+    <string name="nueva">NUEVA \nNOTICIA</string>
+    <string name="introduirDesc">Ej. Kyubi</string>
+    <string name="text">TEXTO:</string>
+    <string name="inttext">Ej. Kyubi es...</string>
+    <string name="descripcio">DESCRIPCIÓN:</string>
+    <string name="borrarnoticia">BORRAR</string>
 </resources>

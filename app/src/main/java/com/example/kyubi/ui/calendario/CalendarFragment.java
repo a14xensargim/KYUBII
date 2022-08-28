@@ -49,8 +49,6 @@ public class CalendarFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         View v = new CustomCalendarView(this.getContext(), container);
 
-        //TextView tv = v.findViewById(R.id.textview)
-
         binding = FragmentCalendarioBinding.inflate(inflater, container, false);
 
         return v;
