@@ -19,7 +19,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/article_title"
+        android:id="@+id/fecha"
         android:layout_width="@dimen/min"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/marginLogin"
@@ -30,12 +30,12 @@
         android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/featured_image"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@tools:sample/lorem" />
 
     <TextView
-        android:id="@+id/article_description"
+        android:id="@+id/nombre"
         android:layout_width="@dimen/layoutw"
         android:layout_height="@dimen/layouth"
         android:layout_marginEnd="@dimen/margin"
@@ -43,20 +43,48 @@
         android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/article_title"
-        app:layout_constraintTop_toBottomOf="@+id/article_title"
+        app:layout_constraintStart_toStartOf="@+id/fecha"
+        app:layout_constraintTop_toBottomOf="@+id/fecha"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/hola" />
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="@dimen/layoutw"
+        android:layout_height="@dimen/layouth"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:ellipsize="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nombre"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/hola" />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="@dimen/layoutw"
+        android:layout_height="@dimen/layouth"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:ellipsize="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/apellido"
+        app:layout_constraintTop_toBottomOf="@+id/apellido"
         app:layout_constraintVertical_bias="0.0"
         tools:text="@string/hola" />
 
     <Button
-        android:id="@+id/borrarNew"
+        android:id="@+id/borrarRutina"
         android:layout_width="@dimen/newlayoutw"
         android:layout_height="@dimen/newlayouth"
         android:layout_marginEnd="@dimen/newlayoutmargin"
         android:text="@string/borrarnoticia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/article_description"
+        app:layout_constraintTop_toBottomOf="@+id/correo"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 

@@ -16,8 +16,6 @@
     <dimen name="medidaimagenheaderw">94dp</dimen>
     <dimen name="singlecellw">60dp</dimen>
     <dimen name="paddingsinclecell">8dp</dimen>
-    <dimen name="textsizesinglec">20sp</dimen>
-    <dimen name="textsizesc">9sp</dimen>
     <dimen name="newlayoutmargin">16dp</dimen>
     <dimen name="newlayouth">39dp</dimen>
     <dimen name="newlayoutw">274dp</dimen>
@@ -27,5 +25,4 @@
     <dimen name="min">0dp</dimen>
     <dimen name="snlh">140dp</dimen>
     <dimen name="snllw">100dp</dimen>
-    <item name="bias" type="dimen" format="float">0.0</item>
 </resources>
