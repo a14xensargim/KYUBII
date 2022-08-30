@@ -3,6 +3,7 @@ package com.example.kyubi.ui.rutinas;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -105,9 +106,16 @@ public class RutinasAdapter extends RecyclerView.Adapter<RutinasAdapter.WordView
         System.out.println("APELLIDO --> " + mCurrent.getAPELLIDO());
         holder.correo.setText(mCurrent.getCORREO());
         System.out.println(mCurrent.getCORREO());
-        new DownloadImageTask((ImageView) holder.imatge).execute(mCurrent.getIMATGE());
 
-        System.out.println("IMATGE --> " + mCurrent.getIMATGE());
+        if(mCurrent.getIMATGE() == null){
+            Drawable myIcon = context.getResources().getDrawable( R.drawable.ic_baseline_rutinasuser );
+            holder.imatge.setImageDrawable(myIcon);
+        }
+        else {
+            new DownloadImageTask((ImageView) holder.imatge).execute(mCurrent.getIMATGE());
+
+            System.out.println("IMATGE --> " + mCurrent.getIMATGE());
+        }
 
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override

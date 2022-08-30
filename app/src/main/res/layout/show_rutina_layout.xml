@@ -3,12 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/snlh">
+    android:layout_height="150dp">
 
     <ImageView
         android:id="@+id/featured_image"
         android:layout_width="@dimen/snllw"
         android:layout_height="@dimen/min"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="@dimen/newlayoutmargin"
         android:layout_marginBottom="@dimen/newlayoutmargin"
         android:contentDescription="@string/snlcontdesc"
@@ -16,62 +17,63 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
         android:id="@+id/fecha"
-        android:layout_width="@dimen/min"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginLogin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="176dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/activity_vertical_margin"
         android:ellipsize="end"
         android:maxLines="@string/calendarday"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toEndOf="@+id/featured_image"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@tools:sample/lorem" />
 
     <TextView
         android:id="@+id/nombre"
-        android:layout_width="@dimen/layoutw"
-        android:layout_height="@dimen/layouth"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginBottom="@dimen/margin"
         android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/fecha"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/featured_image"
         app:layout_constraintTop_toBottomOf="@+id/fecha"
         app:layout_constraintVertical_bias="0.0"
         tools:text="@string/hola" />
 
     <TextView
         android:id="@+id/apellido"
-        android:layout_width="@dimen/layoutw"
-        android:layout_height="@dimen/layouth"
+        android:layout_width="186dp"
+        android:layout_height="27dp"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginBottom="@dimen/margin"
         android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/nombre"
-        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        app:layout_constraintStart_toEndOf="@+id/nombre"
+        app:layout_constraintTop_toBottomOf="@+id/fecha"
         app:layout_constraintVertical_bias="0.0"
         tools:text="@string/hola" />
 
     <TextView
         android:id="@+id/correo"
-        android:layout_width="@dimen/layoutw"
-        android:layout_height="@dimen/layouth"
+        android:layout_width="274dp"
+        android:layout_height="28dp"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginBottom="@dimen/margin"
         android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/apellido"
+        app:layout_constraintStart_toEndOf="@+id/featured_image"
         app:layout_constraintTop_toBottomOf="@+id/apellido"
         app:layout_constraintVertical_bias="0.0"
         tools:text="@string/hola" />

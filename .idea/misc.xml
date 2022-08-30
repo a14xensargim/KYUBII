@@ -8,11 +8,14 @@
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable-v24/ic_action_news.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_baseline_username.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_baseline_usuario.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/add_newevent_layout.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/content_main.xml" value="0.2" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/fragment_calendario.xml" value="0.1" />
@@ -20,7 +23,12 @@
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/fragment_noticias.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/fragment_rutinas.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/grid_layout.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/show_events_layout.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/show_new_layout.xml" value="0.1" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/show_rutina_layout.xml" value="0.33" />
+        <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/layout/single_cell_layout.xml" value="0.1" />
         <entry key="..\:/Users/xenia/AndroidStudioProjects/KYUBI2/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
       </map>
     </option>
