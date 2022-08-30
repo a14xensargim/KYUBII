@@ -1,9 +1,14 @@
 package com.example.kyubi.ui.noticias;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.kyubi.R;
@@ -31,6 +37,7 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.WordViewHolder>{
     private LayoutInflater mInflater;
     private static int pos;
     private Context context;
+    public String botonPN = null;
 
     FirebaseUser user;
     com.example.kyubi.ui.noticias.NewsFragment newsFragment;
@@ -104,6 +111,7 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.WordViewHolder>{
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 BD bd = new BD();
 
                 System.out.println("HOLAAAAAAAAAAAAAAAAAAAAAAAAAAa");
@@ -114,6 +122,8 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.WordViewHolder>{
 
             private void onNewsDeleted(Boolean esborrat) {
                 if(esborrat) {
+                    //Intent intent = new Intent(newsFragment.getActivity(), NewsFragment.class);
+                    //newsFragment.getContext().startActivity(intent);
                 }
 
                 else

@@ -46,6 +46,7 @@ public class BD {
     }
 
     public void saveEvent(String titol, String descripcio, String url){
+        System.out.println("HOLAAA");
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
         Map<String, Object> noticia = new HashMap<>();

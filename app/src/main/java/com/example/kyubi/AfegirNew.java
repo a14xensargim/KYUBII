@@ -59,8 +59,10 @@ public class AfegirNew extends AppCompatActivity {
         afegir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                System.out.println("CLICK");
                 if(titol.getText().toString() != null && descripcio.getText().toString()
                         != null && url2 != null){
+                    System.out.println("TITOL");
                     progressBar.setVisibility(View.VISIBLE);
                     BD bd = new BD();
 

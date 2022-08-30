@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="140dp">
+    android:layout_height="@dimen/snlh">
 
     <ImageView
         android:id="@+id/featured_image"
-        android:layout_width="100dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="bhug"
+        android:layout_width="@dimen/snllw"
+        android:layout_height="@dimen/min"
+        android:layout_marginTop="@dimen/newlayoutmargin"
+        android:layout_marginBottom="@dimen/newlayoutmargin"
+        android:contentDescription="@string/snlcontdesc"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,46 +20,44 @@
 
     <TextView
         android:id="@+id/article_title"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/min"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="@dimen/marginLogin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="@string/calendarday"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/featured_image"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@tools:sample/lorem" />
 
     <TextView
         android:id="@+id/article_description"
-        android:layout_width="274dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="@dimen/layoutw"
+        android:layout_height="@dimen/layouth"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
         android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/article_title"
         app:layout_constraintTop_toBottomOf="@+id/article_title"
-        app:layout_constraintVertical_bias="0.0"
-        tools:text="hola" />
+        app:layout_constraintVertical_bias="@dimen/bias"
+        tools:text="@string/hola" />
 
     <Button
         android:id="@+id/borrarNew"
-        android:layout_width="274dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="@dimen/newlayoutw"
+        android:layout_height="@dimen/newlayouth"
+        android:layout_marginEnd="@dimen/newlayoutmargin"
         android:text="@string/borrarnoticia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/article_description"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="@dimen/bias"
         tools:ignore="MissingConstraints" />
 
 

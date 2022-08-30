@@ -5,7 +5,7 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">230dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="nav_header_vertical_spacingImage">40dp</dimen>
+    <dimen name="nav_header_vertical_spacingImage">15dp</dimen>
     <dimen name="sizeSignIn">35sp</dimen>
     <dimen name="marginSignIn">50dp</dimen>
     <dimen name="marginUsername">10dp</dimen>
@@ -14,4 +14,18 @@
     <dimen name="marginLogin">20dp</dimen>
     <dimen name="medidaimagenheader">132dp</dimen>
     <dimen name="medidaimagenheaderw">94dp</dimen>
+    <dimen name="singlecellw">60dp</dimen>
+    <dimen name="paddingsinclecell">8dp</dimen>
+    <dimen name="textsizesinglec">20sp</dimen>
+    <dimen name="textsizesc">9sp</dimen>
+    <dimen name="newlayoutmargin">16dp</dimen>
+    <dimen name="newlayouth">39dp</dimen>
+    <dimen name="newlayoutw">274dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="layouth">50dp</dimen>
+    <dimen name="layoutw">274dp</dimen>
+    <dimen name="min">0dp</dimen>
+    <dimen name="snlh">140dp</dimen>
+    <dimen name="snllw">100dp</dimen>
+    <item name="bias" type="dimen" format="float">0.0</item>
 </resources>

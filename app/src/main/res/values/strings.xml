@@ -30,4 +30,14 @@
     <string name="inttext">Ej. Kyubi es...</string>
     <string name="descripcio">DESCRIPCIÓN:</string>
     <string name="borrarnoticia">BORRAR</string>
+    <string name="borrarFoto">¿Estás seguro que deseas borrar la noticia?</string>
+    <string name="borrar">Sí</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="porkyubi">Por GYM KYUBI</string>
+    <string name="Benv">"Bienvenido/a "</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="iniciarSesion">Iniciar sesión/Registro</string>
+    <string name="calendarday">1</string>
+    <string name="hola">hola</string>
+    <string name="snlcontdesc">bhug</string>
 </resources>
